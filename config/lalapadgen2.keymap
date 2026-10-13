@@ -49,7 +49,7 @@
         double_zero: double_zero {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp KP_N0 kp KP_N0>;
+            bindings = <&kp N0 & kp N0>;
         };
     };
 
